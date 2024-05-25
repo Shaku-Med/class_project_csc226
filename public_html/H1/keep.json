@@ -1,0 +1,52 @@
+{
+    "short_name": "Keep Here",
+    "name": "Keep Here",
+    "icons": [{
+            "src": "./keep.ico",
+            "sizes": "300x300",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "./keep.ico",
+            "type": "image/png",
+            "sizes": "300x300"
+        },
+        {
+            "src": "./keep.ico",
+            "type": "image/png",
+            "sizes": "300x300"
+        },
+        {
+            "src": "./keep.ico",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "./keep.ico",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "./keep.ico",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "./keep.ico",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "./keep.ico",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "./keep.ico",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone"
+}

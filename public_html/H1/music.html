@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover">
+    <meta name="keywords" content="Order, Online, Fast, Search">
+    <meta name="description" content="Play some songs from your sit now. 😉">
+    <!--  -->
+    <meta name="theme-color" content="#fff" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#1f1f1f" media="(prefers-color-scheme: dark)">
+    <!--      -->
+    <meta property="og:title" content="PLAY ME" />
+    <meta property="og:description" content="Play some songs from your sit now. 😉" />
+    <meta property="og:image" content="./metadata.jpg" />
+    <meta property="og:site_name" content="Play Me" />
+    <!--  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./favicon.ico">
+    <link rel="manifest" href="../manifest.json">
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <!--  -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+
+    <link rel="stylesheet" href="index.css">
+    <!--  -->
+    <title>PLAY ME</title>
+</head>
+
+<body>
+    <div class="layoutpath flex-col fixed top-0 left-0 w-full h-full flex items-center justify-between">
+        <div class="layout p-2  h-fit  bb w-full left">
+            <div class="finds uppercase text-center p-2 w-full font-bold text-[24px] ">
+                Find Songs
+            </div>
+            <input placeholder="Search for songs" class=" outline-none focus:brd rounded-xl p-2 w-full bg-[var(--border)]" type="search" name="" id="search">
+        </div>
+        <div class="layout overflow-x-hidden overflow-y-autoh-full w-full right">
+            <div class="griddata p-2"></div>
+        </div>
+        <div class="controlsspott  w-full bg-[var(--border)] "></div>
+    </div>
+    <!-- SCRIPT GETTING API REQUETS FROM MY SERVER... (https://fawundu-api.vercel.app/api/v2/music/uniqueid). It's an open API for some particular end points. Only the music endpoint is open to everyone. But all the other endpoints receive Accepts (Encrypted Data) that expires soon as the server receives your request and it doesn't accept any request from extra endpoint or website it's completely secure in all axis, DDOS and XSS and more... The actual website the api is used for is (https://fawundu.medzyamara.com)  -->
+    <script src="./index.js"></script>
+    <script src="./Edit.js"></script>
+    <!--  -->
+    <script>
+        console.log(new Date(1706853600))
+    </script>
+</body>
+
+</html>

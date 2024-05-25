@@ -1,0 +1,52 @@
+{
+    "short_name": "Play Me",
+    "name": "Play Me",
+    "icons": [{
+            "src": "./favicon.ico",
+            "sizes": "300x300",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "./favicon.ico",
+            "type": "image/png",
+            "sizes": "300x300"
+        },
+        {
+            "src": "./favicon.ico",
+            "type": "image/png",
+            "sizes": "300x300"
+        },
+        {
+            "src": "./favicon.ico",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "./favicon.ico",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "./favicon.ico",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "./favicon.ico",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "./favicon.ico",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "./favicon.ico",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone"
+}

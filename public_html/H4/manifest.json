@@ -1,0 +1,53 @@
+{
+    "short_name": "BookShelf",
+    "name": "BookShelf",
+    "icons": [
+        {
+            "src": "logo.ico",
+            "sizes": "300x300",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "logo.ico",
+            "type": "image/png",
+            "sizes": "300x300"
+        },
+        {
+            "src": "logo.ico",
+            "type": "image/png",
+            "sizes": "300x300"
+        },
+        {
+            "src": "logo.ico",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "logo.ico",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "logo.ico",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "logo.ico",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "logo.ico",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "logo.ico",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone"
+}
